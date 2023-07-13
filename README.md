@@ -12,13 +12,13 @@ With the optimal number of clusters decided, we assigned each record in the data
 
 ![k4_plot](1dv7d_k4_plot.png)
 
-## Optimsed CLusters with PCA
+## Optimsed Clusters with PCA
 
 We then used PCA to reduce the number of dimensions (columns) in our Dataframe to only three and found that 89.5% of the variance in the original dataset was explained by these components.
 
 We again determine the optimal number of KMeans clusters using the elbow method on this simplified Dataframe. The optimal number for k remained the same as would be expected if only a small amount of information has been lost by performing PCA. Inertia for the PCA dataset was lower than for the original dataset.
 
-We fitted, predicted and scatterplotted the the data again using PC1 and PC1 and observered much more separated clusters with each cluster more tightly grouped around its centroid. 
+We fitted, predicted and scatterplotted the data again using PC1 and PC2 and observered much more separated clusters with each cluster more tightly grouped around its centroid. 
 
 ![pcak4_plot](pc1vpc2_k4_plot.png)
 
